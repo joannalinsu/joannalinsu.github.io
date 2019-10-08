@@ -1,0 +1,51 @@
+.pj-wrapper{
+   font-family: Georgia;
+    margin-top: 80px;
+    width: 100%;
+    min-width: 300px;
+    margin-bottom: 80px;
+}
+.pj-wrapper h3{
+    font-family: Georgia;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+    padding: 0 5px 0 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #646464;
+}
+.pj-wrapper .intro_text{
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.pj-wrapper i{
+    font-family: Georgia;
+    font-style: normal;
+    background-color: #adadeb;
+    color: #ffffff;
+}
+
+.pj-img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+div.row{
+    max-width: 1150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.writing{
+    margin-bottom: 80px;
+
+}
+
+.writing .col-sm-12 {
+    margin-top:30px;
+}
+
