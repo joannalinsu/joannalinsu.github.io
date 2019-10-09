@@ -17,30 +17,20 @@
 </head>
 
 <body>
-  <div class="bg" id="barA">
-      <img class="img" src="styles/bg.JPG" align="left">
-      <div class="header">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-  <h10>Hello, World! </br> I am Joanna Lin Su. </br> And I am also a
-    <span
-       class="txt-rotate"
-       data-period="500"
-       data-rotate='[ "Data Explorer,","Graphic Designer,","Journalist  ,", "Photographer  ,", "Traveler  " ]'></span> <br> Currently, I am studying Digital Journalism @ New York Univeristy Studio 20 Program. </br>
-
-      <a href="https://www.linkedin.com/in/joanna-lin-su-44345518b/" target="blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i> </a> 
-      <a href="https://github.com/joannalinsu" target="blank"> <i class="fa fa-github" style="font-size:24px"></i> </a>
-      <a href="malto:sulinjoanna@gmail.com"> <i class="fa fa-envelope-o" style="font-size:24px"></i> </a>
-      <a href="resume.pdf" target="blank"><i class='far fa-file-alt' style='font-size:24px'></i></a>
-  </h10>
+<div class="header" id="barA">
+   <h10> JOANNA LIN SU </h10>  <h11> </br> Tech and business journalist. </br> Interests | data, graphics, and journalism innovation. <br> Currently | studying Digital Journalism @ New York Univeristy Studio 20 Program. </br>Resume <span><a href="resume.pdf" target="blank">here.</a></span> </h11>
 </br>
-      </div>
-  </div>
-
+   </br> 
+      <a href="https://www.linkedin.com/in/joanna-lin-su-44345518b/" target="blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i> </a> 
+      <a href="https://github.com/sulinjoanna1014" target="blank"> <i class="fa fa-github" style="font-size:24px"></i> </a>
+      <a href="malto:sulinjoanna@gmail.com"> <i class="fa fa-envelope-o" style="font-size:24px"></i> </a> 
+      <a href="https://twitter.com/sulinjoanna" target="blank"><i class="fa fa-twitter" style="font-size:24px"></i>
+</div>
 
     <div id="navbar">
        <li><a href="#barA"> Intro </a></li>
      <li> <a href="#barE"> Projects</a></li>
-     <li> <a href="#barC"> Writings</a></li>
+     <li> <a href="#barC"> Writing</a></li>
       <li><a href="#barD"> Photography</a></li>
       <li><a href="#barB"> About</a></li>
 
@@ -52,7 +42,7 @@
 <div id="barE" class="container">
       <div class="row">
           <div class="col-lg-4 col-md-6 col-12 pj-wrapper">
-              <a href="https://joannalinsu.github.io/project-peerinterview/"><img onclick="gtag('config', 'GA_TRACKING_ID_0')" class="pj-img" src="styles/interview.jpg"/>
+              <a href="https://sulinjoanna1014.github.io/project-peerinterview/" target="_blank"><img onclick="gtag('config', 'GA_TRACKING_ID_0')" class="pj-img" src="Styles/Quiz.jpg"/>
               <h3 > The Language Learning Experiences Ike Wilson, The Digital Journalist To-Be, Has Been Through</h3></a>
               <p class="intro_text"> <i> Audience-Focused Reporting, Engagement Reporting, JavaScript, Graphic Design, ai2html <br></i>  A experimental project of my "Writing and Reporting" course at Studio 20. It is specifcally designed for my audience in this assignment- my Studio 20 classmates. I used the notion of "news gamification" and also my expertise in graphics in presenting the story. I interviewed, wrote, photographed, designed, and coded. <br/>
               </p>
@@ -64,7 +54,7 @@
               </p>
           </div>
           <div class="col-lg-4 col-md-6 col-12 pj-wrapper">
-              <a href="https://news.cgtn.com/news/3d3d774e316b6a4d30457a6333566d54/share_p.html?from=timeline&isappinstalled=0" target="_blank"><img onclick="gtag('config', 'GA_TRACKING_ID_0')" class="pj-img" src="styles/apple.JPG">
+              <a href="https://news.cgtn.com/news/3d3d774e316b6a4d30457a6333566d54/share_p.html?from=timeline&isappinstalled=0" target="_blank"><img onclick="gtag('config', 'GA_TRACKING_ID_0')" class="pj-img" src="styles/Apple.jpg">
               <h3>Apple, The Global Citizen</h3></a>
               <p class="intro_text"> <i> Data Parsing, Project Management, Script Writing, Graphic Design </i>  <br/> A collaborative animation project published on CGTN, contributing to the series reporting about "2019 Shanghai International Import Expo" I pitched story idea, collected and parsing data, wrote the script, designed the story flow, and worked side by side with animation designers. 
               </p>
@@ -76,7 +66,7 @@
               </p>
           </div>
           <div class="col-lg-4 col-md-6 col-12 pj-wrapper">
-              <a href="works/microplastic.pdf" target="_blank"><img onclick="gtag('config', 'GA_TRACKING_ID_0')" class="pj-img" src="styles/1.png"/>
+              <a href="works/microplastic.pdf" target="_blank"><img onclick="gtag('config', 'GA_TRACKING_ID_0')" class="pj-img" src="styles/p.png"/>
 
               <h3>128 Companies Found Producing Facial Cleansers with Microplastic</h3></a>
               <p class="intro_text"> <i> Data Scraping, Data Parsing, Flourish </i> </br> A data journalism project for practice. I scraped a chinese cosmetic product information archive website "bevol.cn" and collected "PE/PP" related facial cleanser products' data, then parsed them into different brands and countries using Python. I conducted interview with marine biologist to cross-check my findings. <br/>
@@ -289,11 +279,12 @@
             </div>
           </div>
         </div>
-            <hr>
+      </br>
+      <hr>
     </section>
 
+  </div>
   <section id="barB" class="cd-container bg-blue">
-
     <div class="cd-timeline-block">
  
       <div class="cd-timeline-img cd-picture">
@@ -480,6 +471,26 @@ one is about using Python to scrape comments from yelp, and implementing sentime
 </script>
 <script>
 
+  var phone = document.getElementById("phone_1");
+
+  function updateView(view) {
+    if (view) {
+      phone.className = "phone view_" + view;
+    }
+  }
+
+
+  function updateIframe() {
+
+    document.getElementById("wrapper").style.perspective = (
+      true ? "1000px" : "none"
+    );
+  }
+  updateIframe();
+
+  document.getElementById("views").addEventListener("click", function (evt) {
+    updateView(evt.target.value);
+  });
 </script>
 
 </html>
