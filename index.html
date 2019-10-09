@@ -469,28 +469,6 @@ one is about using Python to scrape comments from yelp, and implementing sentime
    }
 });
 </script>
-<script>
-
-  var phone = document.getElementById("phone_1");
-
-  function updateView(view) {
-    if (view) {
-      phone.className = "phone view_" + view;
-    }
-  }
-
-
-  function updateIframe() {
-
-    document.getElementById("wrapper").style.perspective = (
-      true ? "1000px" : "none"
-    );
-  }
-  updateIframe();
-
-  document.getElementById("views").addEventListener("click", function (evt) {
-    updateView(evt.target.value);
-  });
-</script>
+ 
 
 </html>
