@@ -6,46 +6,44 @@ body{
 
 .header{
     margin-top:50px;
+
 }
 .header i{
   color:grey;
 }
-@media (min-width:2000px){
-.header{
-  padding-left:2000px;
-}
-}
 
 
-@media (min-width:1600px){
-.header{
-  padding-left:1500px;
-}
-.body{
-  padding-right:700px;
-  padding-left: 700px;
-}
-#navbar {
- padding-left:550px;
-}
-}
 
-
-@media (min-width:1200px){
+@media only screen and (min-width: 1000px){
 .header{
   padding-left:100px;
 }
 }
 
-@media (min-width:1400px){
-.header{
-  padding-left:300px;
+@media only screen and (min-width: 1400px){
+  .header{
+    padding-left:140px;
+  }
+  #navbar {
+    padding-left:300px;
+  }
 }
-.body{
-  padding-right:500px;
-  padding-left: 500px;
+
+@media only screen and (min-width: 1800px){
+  .header{
+    padding-left:280px;
+  }
+  #navbar {
+   padding-left:500px;
+  }
 }
+
+@media only screen and (min-width: 2000px){
+  .header{
+    padding-left:200px;
+  }
 }
+
 
 
 
@@ -133,7 +131,7 @@ body,html {
 
   padding-bottom: 40px;
   text-align:left;
-  color: #9898e6;
+  color: #646464;
 }
 
 .header span{
@@ -174,7 +172,7 @@ h6{
 #navbar {
   font-family: Helvetica;
   overflow: hidden;
-  background-color: #9898e6;
+  background-color:#646464;
   z-index:1
 
 }
@@ -715,10 +713,10 @@ body {
   height: 600px;
 }
 
-.footer 
+.footer
 {
     text-align: center;
-    color:#c1c1d7;
+    color:#646464;
 }
 
 
