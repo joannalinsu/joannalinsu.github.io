@@ -242,6 +242,14 @@ h6{
     padding-right:5px;
     width:100%;
   }
+
+  h10{
+    font-size:25px;
+  }
+  h11 {
+    font-size: 15px;
+  }
+
   #navbar{
     display:none;
   }
