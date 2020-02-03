@@ -8,10 +8,11 @@
           column-gap: 0;
   counter-reset: item-counter;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   .masonry {
     -webkit-column-count: 2;
             column-count: 2;
+
   }
 }
 @media screen and (min-width: 600px) {
