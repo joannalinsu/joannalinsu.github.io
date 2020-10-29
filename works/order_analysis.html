@@ -1,5 +1,6 @@
 <style>
-  #text {
+
+ #text {
     padding-top:1%;
     padding-bottom:1%;
     padding-left:30%;
@@ -16,8 +17,19 @@
 
 span{
       font-size:20px;
-
   }
+
+  @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #text{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  header{
+    padding-left:10%;
+    padding-right:10%;
+  }
+
 </style>
 <div>
   <header>
@@ -37,17 +49,18 @@ span{
   </p>
 
   <p id="text">
-    Data analysis methodology: The analysis looks at state-level mask wearing
+    <b> Data analysis methodology:</b></br>
+    The analysis looks at state-level mask wearing
     order data from the U.S. Test and Trace.com, state-level staying at home
     order and reopening order time data from the National Academy for State
     Policy. To note, the reopening dates used in this analysis are based on each
     State’s first-time issued orders, given that many states reverse their
-    reopening orders after seeing cases resurge. How I calculated the three
-    different policies’ timelines (pseudo code): 1. Mask wearing order timeline
+    reopening orders after seeing cases resurge. </br> </br> <b> How I calculated the three
+    different policies’ timelines (pseudo code):</b> </br> 1. Mask wearing order timeline
     = mask order date – date when the state hit 100 confirmed cases /100k
-    population 2. Stay at home order timeline = stay at home order date - date
-    when the state hit 100 confirmed cases/ 100k population 3. Reopen timeline =
-    date when stay at home order first lifted - stay at home order date The
+    population </br> 2. Stay at home order timeline = stay at home order date - date
+    when the state hit 100 confirmed cases/ 100k population </br> 3. Reopen timeline =
+    date when stay at home order first lifted - stay at home order date </br> The
     analysis uses governors' political leaning to categorize states instead of
     the election results because the topic here is mainly about comparing the
     timelines of three state policies, decisions that are largely driven by the
@@ -57,12 +70,12 @@ span{
 
 <div>
   <p id="text">
-    Politics make a clear difference when it comes to the length of Stay at Home
-    orders • States have an average “stay at home” duration of around 48 days
+    <b>Politics make a clear difference when it comes to the length of Stay at Home
+    orders </b></br> • States have an average “stay at home” duration of around 48 days
     before they reopened. States that registered shorter “staying at home”
-    periods mostly have Republican governors (22 R and 7 D). • States that have
+    periods mostly have Republican governors (22 R and 7 D). </br> • States that have
     democratic governors have the average stay at home time of 54 days, while
-    states with republican governors have an average time of 40 days. • States
+    states with republican governors have an average time of 40 days. </br> • States
     that are having shorter “staying at home” periods are more likely to see
     greater outbreaks. (according to the COVID Tracker on Aug 18)
   </p>
@@ -269,13 +282,13 @@ span{
 <!-- End ai2html - 2020-10-22 00:21 -->
 <div>
   <p id="text">
-    Affiliation of the governor had little effect on response time for stay at
-    home orders. • The average response time of republican/ democratic governors
+    <b>Affiliation of the governor had little effect on response time for stay at
+    home orders. </b></br> • The average response time of republican/ democratic governors
     are pretty close -- democratic governors have an avg. response time of 29
     days before they hit 100 total cases/ 100K, while republican governors’ avg.
     response time is 26 days. (response time is the time period when a state has
-    its state-wide “stay at home” order before it hit 100 total confirmed cases
-    per 100,000 population) • NY, PA, and NJ had the shortest response times, of
+    its state\-wide “stay at home” order before it hit 100 total confirmed cases
+    per 100,000 population) </br> • NY, PA, and NJ had the shortest response times, of
     1 day, 5 days and 7 days respectively. However, they had relatively longer
     “staying at home” periods of 66 days, 59 days, 73 days. In comparison, GA is
     seeing a short response time (7 days) and it also had its first reopening
@@ -533,14 +546,14 @@ span{
 <!-- End ai2html - 2020-10-22 00:08 -->
 <div>
   <p id="text">
-    On average Republican governors took twice as long to issue a mask-wearing
-    order than their Democrat counterparts. • Republican governors tend to order
+    <b> On average Republican governors took twice as long to issue a mask-wearing
+    order than their Democrat counterparts.</b> </br> • Republican governors tend to order
     statewide masks-wearing on an average of 74 days after the state hit 100/
     100K, while democratic governors’ avg. response time is half shorter- 37
-    days. • Many of the hardest hit states now have not issued state-wide mask
+    days. </br>• Many of the hardest hit states now have not issued state-wide mask
     wearing orders. GA, which had a “stay at home” order close to 100/100K and
     reopened quickly after that, has never mandated its citizens to wear masks.
-    • Only two states (HI and ME) ordered “mask-wearing” policies prior to
+  </br> • Only two states (HI and ME) ordered “mask-wearing” policies prior to
     hitting 100 total confirmed cases per 100K.
   </p>
 </div>
@@ -744,7 +757,7 @@ span{
 <div>
   <p id="text">
     Comparing the real-time 2-week avg. changes in new cases/ 100K pop and the
-    time period from each state ordered mask-wearing policy till now: • States
+    time period from each state ordered mask-wearing policy till now: </br> • States
     which waited longer to issue mask-wearing orders are more likely to be
     currently facing bigger outbreaks over the most recent 2-week period.
   </p>
