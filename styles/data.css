@@ -1,29 +1,29 @@
 .pj-wrapper{
-   font-family: Georgia;
+   font-family: Lab Grot Ins Thin;
     margin-top: 50px;
     width: 100%;
     min-width: 300px;
     margin-bottom: 40px;
 }
 .pj-wrapper h3{
-    font-family: Georgia;
+    font-family:Lab Grot Ins Thin;
     font-weight: 400;
     margin: 10px 0 10px 0;
     padding: 0 5px 0 0;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 24px;
     color: #646464;
 }
 .pj-wrapper .intro_text{
-    font-family: Georgia;
-    font-size: 15px;
+    font-family: Lab Grot Ins Thin;
+    font-size: 16px;
     font-weight: 300;
 }
 
 
 
 .pj-wrapper i{
-    font-family: Georgia;
+    font-family: Lab Grot Ins Thin;
     font-style: normal;
     background-color: #646464;
     color: #ffffff;
