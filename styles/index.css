@@ -12,12 +12,12 @@ body {
 
 h10 {
   font-size: 32px;
-  font-family: Lab Grot Ins Black;
+  font-family: 'roboto light', sans-serif;
 }
 
 h11 {
   font-size: 18px;
-  font-family: Lab Grot Ins Thin;
+  font-family: 'roboto light', sans-serif thin;
 }
 
 ol,
@@ -34,12 +34,12 @@ h5,
 h6 {
   font-size: 10px;
   font-weight: bold;
-  font: Lab Grot Ins Thin;
+  font:  ;
 }
 
 
 .pj-wrapper .intro_text{
-  font-family: Lab Grot Ins Thin;
+  font-family: 'roboto light', sans-serif;
   font-size: 23px;
 }
 
@@ -58,7 +58,7 @@ acronym {
 }
 
 .cd-timeline-block {
-  font-family:  Lab Grot Ins Thin;
+  font-family: 'roboto light', sans-serif;
 }
 .cd-timeline-block a {
   text-decoration: none;
@@ -67,7 +67,7 @@ acronym {
 }
 
 .writing {
-  font-family:Lab Grot Ins Thin;
+  font-family:'roboto light', sans-serif;
 }
 
 .writing a {
@@ -86,7 +86,7 @@ img {
 body,
 html {
   height: 50%;
-  font-family:Lab Grot Ins Thin;
+  font-family:'roboto light', sans-serif;
 }
 
 .header {
@@ -97,7 +97,7 @@ html {
 
 .header span {
   font-weight: bold;
-  font-family:Lab Grot Ins Thin;
+  font-family:'roboto light', sans-serif;
 }
 
 .cd-timeline-content span {
@@ -120,7 +120,7 @@ h5 {
 }
 
 h6 {
-  font-family:  Lab Grot Ins Thin;
+  font-family: 'roboto light', sans-serif;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
@@ -131,7 +131,7 @@ h6 {
 }
 
 #navbar {
-  font-family:  Lab Grot Ins Medium;
+  font-family: 'roboto light', sans-serif;
   overflow: hidden;
   background-color: #646464;
   z-index: 1;
@@ -218,7 +218,7 @@ h6 {
 }
 
 .footer {
-  font-family: Lab Grot Ins Italic;
+  font-family: 'roboto light', sans-serif;
   text-align: center;
   color: #646464;
 }

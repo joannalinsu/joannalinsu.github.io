@@ -1,12 +1,12 @@
 .pj-wrapper{
-   font-family: Lab Grot Ins Thin;
+   font-family: 'roboto light', sans-serif;
     margin-top: 50px;
     width: 100%;
     min-width: 300px;
     margin-bottom: 40px;
 }
 .pj-wrapper h3{
-    font-family:Lab Grot Ins Thin;
+    font-family:'roboto light', sans-serif;
     font-weight: 400;
     margin: 10px 0 10px 0;
     padding: 0 5px 0 0;
@@ -15,7 +15,7 @@
     color: #646464;
 }
 .pj-wrapper .intro_text{
-    font-family: Lab Grot Ins Thin;
+    font-family: 'roboto light', sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
@@ -23,7 +23,7 @@
 
 
 .pj-wrapper i{
-    font-family: Lab Grot Ins Thin;
+    font-family: 'roboto light', sans-serif;
     font-style: normal;
     background-color: #646464;
     color: #ffffff;
