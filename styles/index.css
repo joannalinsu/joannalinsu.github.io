@@ -19,7 +19,7 @@ h10 {
 }
 
 h11 {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight:300;
 }
@@ -240,7 +240,8 @@ h6 {
     font-size: 25px;
   }
   h11 {
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 13px;
   }
 
   #navbar {
