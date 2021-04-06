@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Permanent+Marker&display=swap');
+
 body {
   text-align: center;
 }
@@ -10,14 +12,16 @@ body {
   color: grey;
 }
 
+
 h10 {
   font-size: 32px;
-  font-family: 'roboto light', sans-serif;
+  font-family: 'Permanent Marker', cursive;
 }
 
 h11 {
   font-size: 18px;
-  font-family: 'roboto light', sans-serif thin;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
 }
 
 ol,
@@ -39,7 +43,7 @@ h6 {
 
 
 .pj-wrapper .intro_text{
-  font-family: 'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 23px;
 }
 
@@ -51,6 +55,8 @@ abbr,
 acronym {
   border: 0;
 }
+
+
 @charset "utf-8";
 * {
   margin: 0px;
@@ -58,7 +64,7 @@ acronym {
 }
 
 .cd-timeline-block {
-  font-family: 'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .cd-timeline-block a {
   text-decoration: none;
@@ -67,7 +73,7 @@ acronym {
 }
 
 .writing {
-  font-family:'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .writing a {
@@ -86,7 +92,7 @@ img {
 body,
 html {
   height: 50%;
-  font-family:'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -97,7 +103,7 @@ html {
 
 .header span {
   font-weight: bold;
-  font-family:'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cd-timeline-content span {
@@ -120,7 +126,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
@@ -131,7 +137,7 @@ h6 {
 }
 
 #navbar {
-  font-family: 'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   overflow: hidden;
   background-color: #646464;
   z-index: 1;
@@ -218,7 +224,7 @@ h6 {
 }
 
 .footer {
-  font-family: 'roboto light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #646464;
 }
