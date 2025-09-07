@@ -1,3 +1,2 @@
-Joanna (Lin) Su </br>
-Interests | data viz and news product development </br>
-Currently | data journalist @ Moody's
+Joanna Su </br>
+Data Scientist and computational journalist @ Moody's.
