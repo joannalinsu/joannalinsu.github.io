@@ -276,10 +276,34 @@ h6 {
 }
 
 @media (max-width: 900px) {
+
+    #barA {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+  }
   .linkedin-iframe-row {
     flex-direction: column;
-    gap: 24px;
     align-items: center;
+  }
+
+    #barE .pj-wrapper {
+    max-width: 95vw;
+    min-width: 0;
+  }
+
+  #barE .projects-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  #barE .pj-wrapper {
+    max-width: 98vw;
+    min-width: 0;
+    width: 100%;
   }
   .side-note {
     max-width: 90vw;
@@ -289,6 +313,24 @@ h6 {
 
 
   @media (max-width: 700px) {
+   #barA {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  #barA h10,
+  #barA h11,
+  #barA span {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
   .linkedin-iframe-row {
     display: flex;
     flex-direction: column;
@@ -300,7 +342,18 @@ h6 {
     max-width: 95vw;
     min-width: 0;
   }
-}
+
+  #barE .projects-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  #barE .pj-wrapper {
+    max-width: 98vw;
+    min-width: 0;
+    width: 100%;
+  }
 
   .side-note{
     max-width: 90vw;
@@ -309,9 +362,27 @@ h6 {
 
 
 @media only screen and (max-width: 420px) {
+     #barA {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  #barA h10,
+  #barA h11,
+  #barA span {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
   body {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
     width: 100%;
   }
 
@@ -322,5 +393,16 @@ h6 {
     font-weight: 400;
     font-size: 13px;
   }
-
+  #barE .projects-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  #barE .pj-wrapper {
+    max-width: 98vw;
+    min-width: 0;
+    width: 100%;
+  }
 }
+
