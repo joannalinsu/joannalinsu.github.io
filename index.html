@@ -13,6 +13,10 @@
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -90,7 +94,32 @@
 <section id='barC' class="cd-container bg-yellow">
   <hr> </br>
   <div class="linkedin-iframe-row">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7257813024932061184" height="800" width="600" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <div id="chart-slider" class="carousel slide" data-ride="carousel" style="width:600px; margin:auto;">
+      <ol class="carousel-indicators">
+        <li data-target="#chart-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#chart-slider" data-slide-to="1"></li>
+        <li data-target="#chart-slider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="works/COW1.png" class="d-block w-100" alt="Chart 1">
+        </div>
+        <div class="carousel-item">
+          <img src="works/COW2.png" class="d-block w-100" alt="Chart 2">
+        </div>
+        <div class="carousel-item">
+          <img src="works/COW3.png" class="d-block w-100" alt="Chart 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#chart-slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#chart-slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
     <div class="side-note">
       <h4>"Joanna's Chart of the Week"</h4>
       <p>
